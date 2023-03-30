@@ -12,13 +12,12 @@ struct ContentView: View {
     @EnvironmentObject var listViewModel : ListViewModel
     
     var body: some View {
-        NavigationView {
+        
             List {
                 ForEach(listViewModel.items) { item in
                     ListRowView(item: item)
                         .onTapGesture {
                             withAnimation(.linear) {
-                                //item.isCompleted = true
                                 listViewModel.updateItem(item: item)
                             }
                         }
@@ -31,7 +30,7 @@ struct ContentView: View {
             .navigationTitle("ToDo Lists 📝")
             .navigationBarItems(leading: EditButton(), trailing: NavigationLink("Add", destination:
                 AddView()))
-        }
+            
         
     }
 }
