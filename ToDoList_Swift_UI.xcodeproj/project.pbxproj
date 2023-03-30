@@ -15,6 +15,7 @@
 		49FA09CC29D5D2C10076FF85 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA09CB29D5D2C10076FF85 /* AddView.swift */; };
 		49FA09CF29D5DC8F0076FF85 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA09CE29D5DC8F0076FF85 /* ItemModel.swift */; };
 		49FA09D229D5E10D0076FF85 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA09D129D5E10D0076FF85 /* ListViewModel.swift */; };
+		49FA09D429D61FE50076FF85 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA09D329D61FE50076FF85 /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		49FA09CB29D5D2C10076FF85 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		49FA09CE29D5DC8F0076FF85 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		49FA09D129D5E10D0076FF85 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		49FA09D329D61FE50076FF85 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4939D28729D4D4F400DDE209 /* ContentView.swift */,
 				4939D29529D4D60900DDE209 /* ListRowView.swift */,
 				49FA09CB29D5D2C10076FF85 /* AddView.swift */,
+				49FA09D329D61FE50076FF85 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				49FA09D229D5E10D0076FF85 /* ListViewModel.swift in Sources */,
 				4939D28829D4D4F400DDE209 /* ContentView.swift in Sources */,
 				4939D28629D4D4F400DDE209 /* ToDoList_Swift_UIApp.swift in Sources */,
+				49FA09D429D61FE50076FF85 /* NoItemsView.swift in Sources */,
 				4939D29629D4D60900DDE209 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
